@@ -740,9 +740,13 @@ document.addEventListener('DOMContentLoaded',function(){
   var urlParams=new URLSearchParams(window.location.search);
   var autoId=urlParams.get('id');
   if(autoId){
-    var found=false;
-    for(var i=0;i<PROPS.length;i++){if(PROPS[i].id===autoId){found=true;break;}}
-    if(found)setTimeout(function(){openDetail(autoId);},600);
+    /* propNo(매물번호) 기준으로 검색 */
+    for(var i=0;i<PROPS.length;i++){
+      if(PROPS[i].propNo===autoId||PROPS[i].id===autoId){
+        (function(pid){setTimeout(function(){openDetail(pid);},600);})(PROPS[i].id);
+        break;
+      }
+    }
   }
 });
 
