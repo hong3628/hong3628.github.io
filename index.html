@@ -169,7 +169,6 @@ a{text-decoration:none;color:inherit}
 .feat-item i{color:#C9A84C;font-size:10px}
 .desc-text,.analysis-text{font-size:13px;color:#444;line-height:1.85;margin:0}
 .desc-lines{line-height:2.0;}
-.ad-notice{font-size:11px;color:#AAA;line-height:1.7;margin-top:12px;padding:10px 12px;background:#F8F8F8;border-radius:6px;border-left:3px solid #E0E0E0;}
 .broker-box{background:#0B2D6F;border-radius:8px;padding:18px;display:flex;align-items:center;gap:16px;grid-column:1/-1}
 .broker-ava{width:44px;height:44px;border-radius:50%;background:rgba(201,168,76,.2);border:2px solid #C9A84C;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .broker-ava i{color:#C9A84C;font-size:20px}
@@ -312,7 +311,7 @@ var PROPS = [
   {id:'P001',propNo:'66020100',station:'gangnamgu',stationName:'강남구청역',dong:'논현동',exitLat:37.5175,exitLng:127.0384,
    type:'상가임대',floor:'1층',size:25,sizeSqm:82,deposit:5000,rent:350,premium:0,mgmt:20,
    address:'서울 강남구 논현동 201-5',near:'강남구청역 2번 출구 도보 3분',
-   usage:'근린생활시설',current:'공실',toilet:'1개 (매장 내)',parking:'가능(유료)',illegal:'해당없음',totalFloor:'지하1/지상5층',direction:'남향',approvalDate:'2005-03-15',
+   usage:'근린생활시설',current:'공실',toilet:'1개',parking:'가능(유료)',illegal:'해당없음',totalFloor:'지하1/지상5층',direction:'남향',approvalDate:'2005-03-15',
    features:['무권리','1층 전면','즉시입주 가능'],featDesc:'강남구청역 바로 앞 1층 전면으로 유동인구 노출이 극대화됩니다. 권리금 없이 즉시 입주 가능해 초기 비용 부담이 없습니다.',
    desc:'강남구청역 2번 출구 도보 3분 거리에 위치한 1층 전면 상가입니다. 구청 방문객과 인근 주거 단지 배후 수요를 동시에 흡수할 수 있는 우수한 입지입니다. 권리금 없이 즉시 입주 가능한 공실로 식음료·소매·서비스업 등 다양한 업종에 적합합니다. 전면 유리창 구조로 간판 노출이 우수하며 남향으로 채광이 양호합니다.',
    badge:['추천','무권리'],
@@ -325,7 +324,7 @@ var PROPS = [
   {id:'P002',propNo:'66020101',station:'gangnamgu',stationName:'강남구청역',dong:'청담동',exitLat:37.5168,exitLng:127.0402,
    type:'상가임대',floor:'2층',size:40,sizeSqm:132,deposit:3000,rent:250,premium:2000,mgmt:25,
    address:'서울 강남구 청담동 55-3',near:'강남구청역 4번 출구 도보 5분',
-   usage:'근린생활시설',current:'미용실 (인수 가능)',toilet:'2개 (남녀분리)',parking:'전용주차 3대',illegal:'해당없음',totalFloor:'지하2/지상7층',direction:'동향',approvalDate:'2009-06-20',
+   usage:'근린생활시설',current:'미용실 (인수 가능)',toilet:'2개',parking:'전용주차 3대',illegal:'해당없음',totalFloor:'지하2/지상7층',direction:'동향',approvalDate:'2009-06-20',
    features:['미용실 시설 완비','주차 가능','고급 주거 배후'],featDesc:'미용실 인테리어와 시설 완비로 추가 공사 없이 즉시 영업이 가능합니다. 청담동 고소득 주거 배후 수요를 보유한 안정적 상권입니다.',
    desc:'강남구청역 4번 출구 도보 5분 거리의 청담동 고급 주거지 인근 2층 상가입니다. 현재 미용실로 운영 중이며 인테리어 및 시설 인수 시 초기 비용을 크게 절감할 수 있습니다. 전용주차 3대 확보로 고객 편의성이 높고 소비력 높은 청담동 주민을 배후 수요로 보유합니다. 뷰티·프리미엄 서비스업에 최적화된 입지입니다.',
    badge:['급매'],
@@ -338,7 +337,7 @@ var PROPS = [
   {id:'P003',propNo:'66020102',station:'seonjeongneung',stationName:'선정릉역',dong:'삼성동',exitLat:37.5092,exitLng:127.0496,
    type:'상가임대',floor:'1층',size:30,sizeSqm:99,deposit:6000,rent:420,premium:0,mgmt:22,
    address:'서울 강남구 삼성동 134-2',near:'선정릉역 3번 출구 도보 2분',
-   usage:'근린생활시설',current:'공실',toilet:'1개 (매장 내)',parking:'불가',illegal:'해당없음',totalFloor:'지하1/지상6층',direction:'북향',approvalDate:'2011-09-30',
+   usage:'근린생활시설',current:'공실',toilet:'1개',parking:'불가',illegal:'해당없음',totalFloor:'지하1/지상6층',direction:'북향',approvalDate:'2011-09-30',
    features:['무권리','오피스 밀집 상권','테헤란로 이면'],featDesc:'선정릉역 도보 2분의 초역세권으로 유동인구가 매우 풍부합니다. 테헤란로 이면 1층으로 직장인 점심·저녁 수요를 안정적으로 확보합니다.',
    desc:'선정릉역 3번 출구 도보 2분 거리의 테헤란로 이면도로 1층 상가입니다. 삼성동 오피스 밀집 지역으로 평일 점심·저녁 직장인 수요가 집중되는 F&B 창업 최적지입니다. 권리금 없이 즉시 입주 가능한 공실이며 소형 면적으로 고정비 부담이 적습니다. 인근 대기업 사옥 직원들의 생활 동선상에 위치해 높은 재방문율을 기대할 수 있습니다.',
    badge:['신규','무권리'],
@@ -351,7 +350,7 @@ var PROPS = [
   {id:'P004',propNo:'66020103',station:'seonjeongneung',stationName:'선정릉역',dong:'역삼동',exitLat:37.5082,exitLng:127.0482,
    type:'상가임대',floor:'1층',size:18,sizeSqm:59,deposit:4000,rent:300,premium:1000,mgmt:15,
    address:'서울 강남구 역삼동 826-1',near:'선정릉역 1번 출구 도보 4분',
-   usage:'근린생활시설',current:'카페 운영 중',toilet:'1개 (매장 내)',parking:'불가',illegal:'해당없음',totalFloor:'지하1/지상4층',direction:'남동향',approvalDate:'2007-11-10',
+   usage:'근린생활시설',current:'카페 운영 중',toilet:'1개',parking:'불가',illegal:'해당없음',totalFloor:'지하1/지상4층',direction:'남동향',approvalDate:'2007-11-10',
    features:['카페 인테리어 완비','소형 효율 구조','코너 자리'],featDesc:'카페 인테리어가 완비된 코너 상가로 추가 투자 없이 즉시 창업이 가능합니다. 소형 효율 구조로 1인 운영에 최적화되어 고정비를 최소화할 수 있습니다.',
    desc:'선정릉역 1번 출구 도보 4분 거리에 위치한 소형 1층 코너 상가입니다. 현재 카페로 운영 중이며 인테리어 및 집기 인수 시 추가 투자 없이 즉시 창업이 가능합니다. 역삼동 출퇴근 핵심 동선상에 위치해 직장인 테이크아웃 수요가 안정적입니다. 소형 효율 구조로 1인 운영에 최적화되어 있어 운영 고정비를 최소화할 수 있습니다.',
    badge:['추천'],
@@ -364,7 +363,7 @@ var PROPS = [
   {id:'P005',propNo:'66020104',station:'hakdong',stationName:'학동역',dong:'논현동',exitLat:37.5148,exitLng:127.0318,
    type:'상가임대',floor:'1층',size:22,sizeSqm:72,deposit:4500,rent:380,premium:0,mgmt:18,
    address:'서울 강남구 논현동 98-7',near:'학동역 6번 출구 도보 2분',
-   usage:'근린생활시설',current:'공실',toilet:'1개 (매장 내)',parking:'가능(인근)',illegal:'해당없음',totalFloor:'지하1/지상5층',direction:'서향',approvalDate:'2003-07-25',
+   usage:'근린생활시설',current:'공실',toilet:'1개',parking:'가능(인근)',illegal:'해당없음',totalFloor:'지하1/지상5층',direction:'서향',approvalDate:'2003-07-25',
    features:['무권리','학동사거리 인근','먹자골목 상권'],featDesc:'논현동 먹자골목 중심부에 위치해 야간 음식점·주점 수요가 집중됩니다. 권리금 없이 즉시 영업 가능해 외식 창업자에게 최적의 조건입니다.',
    desc:'학동역 6번 출구 도보 2분 거리에 위치한 논현동 먹자골목 인근 1층 상가입니다. 학동사거리를 중심으로 음식점 수요가 탄탄하며 야간 매출 잠재력이 높은 상권입니다. 권리금 없이 즉시 입주 가능한 공실로 외식업·주점업 창업에 특히 적합합니다. 주변 유사 업종과의 시너지로 집객 효과가 뛰어난 입지입니다.',
    badge:['신규','무권리'],
@@ -377,7 +376,7 @@ var PROPS = [
   {id:'P006',propNo:'66020105',station:'hakdong',stationName:'학동역',dong:'학동',exitLat:37.5138,exitLng:127.0328,
    type:'상가매매',floor:'1층',size:35,sizeSqm:115,deposit:0,rent:0,premium:4000,mgmt:25,salePrice:220000,
    address:'서울 강남구 학동 441-2',near:'학동역 3번 출구 도보 3분',
-   usage:'근린생활시설',current:'편의점 (임차인 있음)',toilet:'1개 (매장 내)',parking:'가능(유료)',illegal:'해당없음',totalFloor:'지하2/지상6층',direction:'남향',approvalDate:'2001-05-08',
+   usage:'근린생활시설',current:'편의점 (임차인 있음)',toilet:'1개',parking:'가능(유료)',illegal:'해당없음',totalFloor:'지하2/지상6층',direction:'남향',approvalDate:'2001-05-08',
    features:['수익형 부동산','현 임차인 월세 190만','안정적 임대수익'],featDesc:'편의점 장기 임차인이 입점해 즉시 안정적인 임대수익이 발생합니다. 학동역세권 주거·오피스 복합 배후로 공실 위험이 낮은 수익형 자산입니다.',
    desc:'학동역 3번 출구 도보 3분 거리에 위치한 수익형 1층 상가 매매입니다. 현재 편의점으로 운영 중이며 월 임대수익 190만원이 안정적으로 발생하고 있습니다. 주거·오피스 복합 배후를 갖춘 역세권 입지로 장기적인 공실 위험이 낮은 안정적 수익형 자산입니다. 임차인 유지 시 즉시 수익 실현이 가능하며 투자 수익률 산정이 명확합니다.',
    badge:['매매'],
@@ -493,11 +492,7 @@ function makeCard(p){
   /* 권리금: 무권리만 표시, 유권리는 숨김 */
   var premiumHtml=p.premium===0
     ?'<div class="card-price-sub" style="color:#1A6B3C;font-weight:700">무권리</div>'
-    :(p.premium>0&&p.premium<3000
-      ?'<div class="card-price-sub" style="color:#1A6B3C;font-weight:700">무권리급</div>'
-      :(p.premium>=3000
-        ?'<div class="card-price-sub" style="color:#E67E22;font-weight:700">권리금협의</div>'
-        :''));
+    :'';
   var div=document.createElement('div');
   div.className='prop-card';
   div.innerHTML=
@@ -558,15 +553,8 @@ function openDetail(id){
     rentHtml=
       '<div class="p-cell"><label>보증금</label><strong>'+fmtM(p.deposit)+'</strong></div>'
       +'<div class="p-cell"><label>월세</label><strong>'+fmtM(p.rent)+'</strong><div class="note">부가세 별도</div></div>'
-      +'<div class="p-cell'+(p.premium===0?' zero':'')+'"><label>권리금</label>'
-      +'<strong>'+(p.premium===0
-        ?'<span style="color:#1A6B3C;font-weight:700">무권리</span>'
-        :(p.premium>0&&p.premium<3000
-          ?'<span style="color:#1A6B3C;font-weight:700">무권리급</span>'
-          :'<span style="color:#E67E22;font-weight:700">권리금협의</span>'))+'</strong></div>'
-      +'<div class="p-cell"><label>관리비<span style="font-size:10px;color:#AAA;font-weight:400"> (공용전기·수도·청소비 등)</span></label><strong>'+fmtM(p.mgmt)+'</strong><div class="note">부가세 별도</div></div>'
-      +'<div class="p-cell"><label>임대할 층</label><strong>'+p.floor+'</strong></div>'
-      +'<div class="p-cell"><label>면적</label><strong>'+p.size+'평 ('+p.sizeSqm+'㎡)</strong></div>';
+      +'<div class="p-cell'+(p.premium===0?' zero':'')+'"><label>권리금</label><strong>'+(p.premium===0?'<span style="color:#1A6B3C;font-weight:700">무권리</span>':'<span style="color:#C9A84C">전화문의</span>')+'</strong></div>'
+      +'<div class="p-cell"><label>관리비<span style="font-size:10px;color:#AAA;font-weight:400"> (공용전기·수도·청소비 등)</span></label><strong>'+fmtM(p.mgmt)+'</strong><div class="note">부가세 별도</div></div>';
   }
 
   document.getElementById('detail-sheet').innerHTML=
@@ -588,13 +576,15 @@ function openDetail(id){
     +'</div></div>'
     +'<div class="d-sections">'
     +'<div class="d-card"><h3><i class="fa-solid fa-won-sign"></i> 임대 조건</h3><div class="price-row">'+rentHtml+'</div></div>'
-    +'<div class="d-card"><h3><i class="fa-solid fa-clipboard-list"></i> 자세한 정보</h3>'
+    +'<div class="d-card"><h3><i class="fa-solid fa-clipboard-list"></i> 기본 정보</h3>'
     +'<table class="spec-tbl">'
-    +'<tr><th>주차</th><td>'+(p.parking||'-')+'</td></tr>'
+    +'<tr><th>면적</th><td>'+p.size+'평 ('+p.sizeSqm+'㎡)</td></tr>'
+    +'<tr><th>임대할 층</th><td>'+p.floor+'</td></tr>'
     +'<tr><th>화장실</th><td>'+(p.toilet||'-')+'</td></tr>'
-    +'<tr><th>용도</th><td>'+p.usage+'</td></tr>'
-    +'<tr><th>영업현황</th><td>'+p.current+'</td></tr>'
+    +'<tr><th>주차</th><td>'+(p.parking||'-')+'</td></tr>'
     +'<tr><th>불법건축물</th><td>'+(p.illegal||'해당없음')+'</td></tr>'
+    +'<tr><th>용도</th><td>'+p.usage+'</td></tr>'
+    +'<tr><th>현황</th><td>'+p.current+'</td></tr>'
     +'</table></div>'
     +'<div class="d-card"><h3><i class="fa-solid fa-map-location-dot"></i> 위치</h3>'
     +'<div id="'+mapId+'" style="height:180px;border-radius:6px;background:#E8EBF0;display:flex;align-items:center;justify-content:center;"><span style="font-size:12px;color:#AAA">지도 로딩 중...</span></div>'
@@ -617,14 +607,12 @@ function openDetail(id){
     +'<div class="d-card full"><h3><i class="fa-solid fa-file-lines"></i> 매물 설명</h3>'
     +'<p class="desc-text desc-lines">'+p.desc.replace(/\.(?=\S)/g,'.<br><br>').replace(/\.\s+/g,'.<br><br>')+'</p>'
     +'</div>'
-    +'<div class="d-card full"><h3><i class="fa-solid fa-list-check"></i> 중개대상물표시광고 명시</h3>'
+    +'<div class="d-card full"><h3><i class="fa-solid fa-list-check"></i> 거래 정보</h3>'
     +'<table class="spec-tbl">'
     +'<tr><th>거래형태</th><td>'+p.type+'</td><th>중개대상물 종류</th><td>상가(점포)</td></tr>'
-    +'<tr><th>건물 총층수</th><td>'+(p.totalFloor||'-')+'</td><th>방향(주된출입구 기준)</th><td>'+(p.direction||'-')+'</td></tr>'
-    +'<tr><th>사용승인일</th><td>'+(p.approvalDate||'-')+'</td><th>방·욕실 갯수</th><td style="font-size:11px;color:#888;font-style:italic;">화장실로 대체</td></tr>'
-    +'</table>'
-    +'<p class="ad-notice">소재지, 가격, 관리비 및 포함항목, 주차가능여부, 해당층수, 방·욕실 갯수(화장실로 대체)는 광고 내용 중에 표시했습니다.</p>'
-    +'</div>'
+    +'<tr><th>건물 총층수</th><td>'+(p.totalFloor||'-')+'</td><th>방향</th><td>'+(p.direction||'-')+'</td></tr>'
+    +'<tr><th>사용승인일</th><td colspan="3">'+(p.approvalDate||'-')+'</td></tr>'
+    +'</table></div>'
     +'<div class="broker-box">'
     +'<div class="broker-ava"><i class="fa-solid fa-user-tie"></i></div>'
     +'<div class="broker-info">'
@@ -642,7 +630,6 @@ function openDetail(id){
 
   document.getElementById('overlay').classList.add('show');
   document.body.style.overflow='hidden';
-  history.pushState({propId:id},'','?id='+id);
 
   /* 카카오맵 - 가까운 역 출구 중심, 반경 500m 원 (지번 비공개) */
   setTimeout(function(){
@@ -699,11 +686,7 @@ function openDetail(id){
 function closeDetail(){
   document.getElementById('overlay').classList.remove('show');
   document.body.style.overflow='';
-  history.pushState({},'',location.pathname);
 }
-window.addEventListener('popstate',function(){
-  if(document.getElementById('overlay').classList.contains('show'))closeDetail();
-});
 document.getElementById('overlay').addEventListener('click',function(e){if(e.target===this)closeDetail();});
 
 function setupKakao(){
@@ -715,13 +698,16 @@ document.addEventListener('DOMContentLoaded',function(){
   setupKakao();
   renderTabs();
   renderGrid();
-  /* URL ?id=P001 형태로 접속 시 해당 매물 팝업 자동 오픈 */
-  var urlParams=new URLSearchParams(window.location.search);
-  var autoId=urlParams.get('id');
-  if(autoId){
-    var found=false;
-    for(var i=0;i<PROPS.length;i++){if(PROPS[i].id===autoId){found=true;break;}}
-    if(found)setTimeout(function(){openDetail(autoId);},600);
+  /* 딥링크: ?id=66020100 형식으로 매물번호 직접 접근 */
+  var params=new URLSearchParams(window.location.search);
+  var propNo=params.get('id');
+  if(propNo){
+    for(var i=0;i<PROPS.length;i++){
+      if(PROPS[i].propNo===propNo){
+        openDetail(PROPS[i].id);
+        break;
+      }
+    }
   }
 });
 
